@@ -23,7 +23,6 @@ class TagFactory extends Factory
     {
         return [
             'tag' => $this->faker->word(),
-            'type' => $type,
         ];
     }
 }
